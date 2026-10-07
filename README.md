@@ -1,7 +1,9 @@
 # RAG-Generative-AI-Solution
 Assignment 1: Fixed-Size Chunking and Semantic Search
 -------------------------------------------------------------------------------------------------------------------------------
-Description: Reads one text file (10+ paragraphs), splits it into overlapping fixed-size chunks, embeds them, and retrieves the three most relevant chunks for a user question.
+Description:
+---
+Reads one text file (10+ paragraphs), splits it into overlapping fixed-size chunks, embeds them, and retrieves the three most relevant chunks for a user question.
 
 Assignment 2: Semantic Chunking, FAISS Vector DB and LLM Synthesis
 -------------------------------------------------------------------------------------------------------------------------------
