@@ -5,8 +5,7 @@ Assignment 1: Fixed-Size Chunking and Semantic Search
 
 Assignment 2: Semantic Chunking, FAISS Vector DB and LLM Synthesis
 -------------------------------------------------------------------------------------------------------------------------------
-**Description:** Reads three text files from different fields, splits them by meaning rather than by fixed length, stores the 
-vectors in a FAISS vector database, and answers questions using retrieval followed by LLM generation.
+**Description:** Builds a basic RAG pipeline by loading three text files from different fields, splitting them into semantic chunks, converting the chunks into embeddings, and storing them in a FAISS vector database. It then accepts a natural language query, embeds it using the same model, performs cosine similarity search, and retrieves the top three most relevant chunks with their similarity scores and source file references.
 
 Project:
 -----------------------------------------------------------------------------------------------------------------------------
